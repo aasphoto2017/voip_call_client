@@ -14,4 +14,17 @@ angular.module('voipCallClientApp')
       'AngularJS',
       'Karma'
     ];
+
+ var self = this;
+ self.callDivTexts = ['Call', 'Calling', 'End call' ];
+
+ self.callDivCurr = self.callDivTexts[0];
+
+
+
+
+
+
+
+
   });
